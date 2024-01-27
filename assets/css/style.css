@@ -1,0 +1,167 @@
+.reset {
+  padding: 0px;
+  margin: 0px;
+}
+
+.contenedorpadre {
+  display: flex;
+}
+
+.menulateral {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  background-color: aqua;
+  min-height: 100vh;
+  background-color: white;
+}
+
+
+
+.perfil {
+  display: flex;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  border: 1px solid #e8ebe4;
+}
+
+.imagen1 {
+  flex-basis: 10%;
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+
+.imagen1 img {
+  border-radius: 50%;
+  width: 30px;
+  height: auto;
+}
+
+.centradotexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-basis: 80%;
+}
+
+.nombres {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  text-align: left; /* Centra el texto dentro de cada párrafo */
+}
+
+.activaahora {
+  font-size: 10px;
+  margin: 0px;
+  color: gray;
+  text-align: center; /* Centra el texto dentro de cada párrafo */
+}
+
+.iconos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 10%;
+  color: gray;
+}
+
+
+.cajaespecial2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+    border: 1px solid #e8ebe4;
+
+}
+
+.boton {
+    background-color: #A491d2;
+    color: white;
+    border: none;
+    padding: 1rem 4rem;
+    margin: 1.5rem;
+    font-size: 14px;
+}
+
+
+/*perfil*/
+.cajacomun {
+    display: flex;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border: 1px solid #e8ebe4;
+  }
+  
+  /*imagen 1*/
+  .imagencaja {
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    padding-right: 0.5rem;
+  }
+  
+  /*imagen 1 img*/
+  .imagencaja img {
+    border-radius: 50%;
+    width: 45px;
+    height: auto;
+  }
+  
+  /*cuadro texto*/
+  .textocaja1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 80%;
+  }
+  
+  /*nombres*/
+  .nombrecaja {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    text-align: left;
+  }
+  
+  /*activaahora*/
+  .chatcaja { 
+    font-size: 0.8rem;
+    margin: 0px;
+    text-align: center; 
+    font-family: "Open Sans", sans-serif;    
+  }
+
+  .seccion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    background-color: #e8ebe4;
+  }
+  
+  .seccion1 {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .seccion1 img {
+    width: 280px;
+    height: 280px;
+    margin-bottom: 10px;
+  }
+  
+  .seccion1 h1 {
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 8px;
+  }
+  
+  .seccion1 p {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
